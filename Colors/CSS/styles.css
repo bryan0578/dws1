@@ -1,0 +1,70 @@
+body {
+	/*I manually chose this color*/
+	background: black;
+	color: rgba(153, 153, 153, 1);	
+}
+h1{
+	/*I manually chose this color*/
+	color: #ffffff
+}
+
+h2{
+	/*Both of these colors I chose from HLS Color picker*/
+	color: rgba(255, 55, 5, 1);
+	background-color: rgba(153, 153, 153, 1);
+	
+}
+ul{
+	/*color chosen manually*/
+	background-color:black;
+}
+
+#History {
+	/*color chosen from HLS Color Picker*/
+	background: rgba(217, 2, 2, 0.39);
+	
+}
+
+
+
+#Expansion {
+	/*color chosen from HLS Color Picker*/
+	background: rgba(217, 2, 2, 0.39);
+	
+}
+
+#Endorsements {
+	/*color chosen from HLS Color Picker*/
+	background: rgba(217, 2, 2, 0.39);
+	
+
+}
+
+#Drums {
+	/*color chosen from HLS Color Picker*/
+	background: rgba(217, 2, 2, 0.39);
+	
+
+}
+
+#Snare {
+	/*color chosen from HLS Color Picker*/
+	background: rgba(217, 2, 2, 0.39);
+	
+}
+
+#Hardware {
+	/*color chosen from HLS Color Picker*/
+	background: rgba(217, 2, 2, 0.39);
+	
+}
+
+em {
+	/*color chosen from Color Scheme Designer*/
+	color: #3BDA00;
+}
+
+strong{
+	/*color chosen manually*/
+	color: #ffffff;
+}
