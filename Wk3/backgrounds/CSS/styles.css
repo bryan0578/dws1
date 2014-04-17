@@ -4,22 +4,24 @@ body {
 	font-family: arial, venanda, sanserif;
 	font-style:normal;
 	font-weight:normal;
-	width:90%;	
+	width:90%;
+	background-image: url("../images/presence.png");
+	
 	margin:0 auto;	
-	}
+}
 
 #nav>ul{
 	list-style-type:none;
 	margin:0;
 	padding:0;
 	overflow:hidden;
-	}
+}
 
 #nav>ul>li{
 	float:left;
-	}
+}
 	a:link,a:visited
-	{
+{
 	padding:5px;
 	margin:2px;
 	display:block;
@@ -31,57 +33,67 @@ body {
 	text-align:center;
 	text-decoration:none;
 	text-transform:uppercase;
-	}
-	a:hover,a:active{
+	
+}
+	a:hover,a:active
+{
 	background-color:#99A60E;
-	}
+}
+
 h1{
 	font-family: 'Bowlby One', cursive;
-	color: #2D2920;
+	color: #BCAE93;
 	text-shadow:0.075em 0.075em #777570;
 	font-weight:bold;
 	font-size:4em;
 	position:relative;
 	top:20px;
-	left:30px;
-	}
+	left:30px;	
+}
 
 h2{
 	font-family: 'Russo One', sans-serif;
-	color: #D3C7B1;
-	background-color: #2D2920;
+	color: #BCAE93;
 	text-shadow:0.075em 0.075em #EDE9E0;
 	text-align:center;
 	line-height:130%;
-	}
+	background:url("../images/music.png");
+	background-repeat:no-repeat;
+	background-size:30px;
+	background-color: #2D2920;
+	background-position:left center;
+	padding-left:32px;
+	
+}
 
 #History, #Expansion, #Endorsements, #Drums, #Snare, #Hardware{
 	padding:10px;
-	background:#BCAE93;
-	line-height:150%;
+	background: linear-gradient(to bottom, rgba(211,199,177,1) 0%,rgba(188,174,147,1) 100%)
 	}
+	
 #History>p, #Expansion>p, #Endorsements>p, #Drums>p, #Snare>p, #Hardware>p{
 	text-indent:50px;
 	}
 	
 em {
 	color: #3BDA00;
-	}
+}
 
 strong{
 	color: #ffffff;
-	}
+}
 .column1of4{
 	width: 30%;
 	float:right;
 	margin:1%;
 	border: 5px solid #2D2920;
-	-moz-box-shadow: 5px 5px 5px 5px #777570; 
+	-moz-box-shadow: 5px 5px 5px px #777570; 
 	-webkit-box-shadow: 5px 5px 5px 5px #777570; 
 	 box-shadow: 5px 5px 5px 5px #777570;  
 	 border-radius: 10px; 
 	 -moz-border-radius: 10px; 
 	 -webkit-border-radius: 10px;
+
 	 }
 
 .column2of4{
@@ -95,8 +107,9 @@ strong{
 	 border-radius: 10px; 
 	 -moz-border-radius: 10px; 
 	 -webkit-border-radius: 10px;
+	 
 	}
-.column3of4{
+.column3of4, .column4of4{
 	width:98%;
 	float:left;
 	margin:1%;
@@ -107,22 +120,12 @@ strong{
 	 border-radius: 10px; 
 	 -moz-border-radius: 10px; 
 	 -webkit-border-radius: 10px;
+	 
 	}
-.column4of4{
-	width:98%;
-	float:left;
-	margin:1%;
-	border: 5px solid #2D2920;
-	-moz-box-shadow: 5px 5px 5px 5px #777570; 
-	-webkit-box-shadow: 5px 5px 5px 5px #777570; 
-	 box-shadow: 5px 5px 5px 5px #777570;  
-	 border-radius: 10px; 
-	 -moz-border-radius: 10px; 
-	 -webkit-border-radius: 10px;
-	}
+
 .list1of3, .list2of3, .list3of3{
 	padding:10px;
-	background-color:#615666;
+	background: linear-gradient(to bottom, rgba(97,86,102,1) 37%,rgba(114,83,112,1) 100%);
 	color:#D3C7B1;
 	margin:20px;
 	border: 5px solid #2D2920;
@@ -137,8 +140,10 @@ ul{
 #footer{
 	width:400px;
 	padding:10px;
+	margin:20px;
 	clear:both;
 	border-style:dotted;
-	border-color: #2D2920;
-	color: #2D2920;
+	border-color: #ffffff;
+	color: #ffffff;
+	text-align:center;
 	}
