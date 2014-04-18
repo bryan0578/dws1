@@ -66,12 +66,12 @@ h2{
 	height:	35px
 	}
 
-section,table{
+section.history, section.expansion, section.endorsements, section.drums, section.snare, section.hardware,table{
 	padding:10px;
 	background: linear-gradient(to bottom, rgba(211,199,177,1) 0%,rgba(188,174,147,1) 100%)
 	}
 	
-#history>p, #expansion>p, #endorsements>p, #drums>p, #snare>p, #hardware>p{
+section.history>p, section.expansion>p, section.endorsements>p, section.drums>p, section.snare>p, section.hardware>p{
 	text-indent:50px;
 	}
 	

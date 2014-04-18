@@ -1,0 +1,4 @@
+Git Links
+
+https://github.com/bryan0578/dws1/tree/gh-pages/wk3/cash-bryan-html5-layout-tables
+http://bryan0578.github.io/dws1/wk3/cash-bryan-html5-layout-tables/html5-layout-tables.html
