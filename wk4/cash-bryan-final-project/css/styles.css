@@ -89,7 +89,7 @@ h4{
 	text-shadow:0.075em 0.075em #9B9D9E;
 	text-align:center;
 	}
-#About,#My-Story,#Autographs,#Toys{
+#About,#My-Story,#Autographs,#Toys,#contact{
 	padding-left:25px;
 	padding-right:25px;
 	border-collapse:collapse;	
@@ -184,7 +184,7 @@ tr:hover {
 	background-color: #c3e6e5;
 	}
 .column4of4{
-width:100%;
+	width:100%;
 	float:left;
 	color:#ffffff;
 	margin: 0px auto;
@@ -214,11 +214,88 @@ figure.align-left{
 	line-height:30px;
 	text-align:center;
 }
-	
-.form-style{
+
+.form1of2{
+margin:0px auto;
+margin-top:30px;
+margin-bottom:30px;
+width:550px;
+height:450px;
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+font-weight: bold;
+color:#F0AB2F; 
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:30px;
+border: 1px solid #999;
+border: inset 2px solid #333;
+
+}
+#contact{
+	width:65%;
 	float:left;
-	}
+	color:#ffffff;
+	margin: 0px auto;
+	background:#000000;
+	border: 10px solid #F0AB2F;
+	-moz-box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3);
+	-webkit-box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3); 
+	 box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3);  
+	 border-radius: 10px; 
+	 -moz-border-radius: 10px; 
+	 -webkit-border-radius: 10px;
+	 margin-top:50px;
+	 text-align:left;
 	
+	}
+.name{
+	width:150px;
+
+	}
+.email{
+	width:175px;
+	}
+#comments{
+	width:400px;
+	height:300px;
+	}
+.submit{
+	width:100px;
+	margin-left:150px;
+	margin-bottom:30px;
+	}
+.form2of2{
+margin:0px auto;
+margin-top:30px;
+margin-bottom:30px;
+width:250px;
+height:100px;
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+font-weight: bold;
+color:#F0AB2F; 
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding-left:50px;
+border: 1px solid #999;
+border: inset 2px solid #333;
+	}
+footer{
+	margin-top:50px;
+	margin-bottom:50px;
+	border: 2px solid #F0AB2F;
+	 border-radius: 10px; 
+	 -moz-border-radius: 10px; 
+	 -webkit-border-radius: 10px;
+	 padding:10px;
+	float:left;
+	clear:both;
+	}
 
 
 	
