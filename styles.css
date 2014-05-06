@@ -10,21 +10,16 @@ body{
 	background-image: url("../images/Stars_copy.gif");
 	background-repeat: repeat;
 	background-position:100% 100%;
-	background-attachment:fixed;
-	
+	background-attachment:fixed;	
 	}
- @font-face{
- 	font-family:"Starjedi.tff";
- 	src:url("Starjedi.tff") format("truetype");
- 	}
- 	
+ 
 
 nav ul{
 	background: linear-gradient(to bottom, #8500b8 ,#ffffff ,#8500b8);
 	border: 5px solid rgba(133,0,184,.1);
-	-moz-box-shadow: 3px 3px 3px 3px #8500b8; 
-	-webkit-box-shadow: 3px 3px 3px 3px #8500b8; 
-	 box-shadow: 3px 3px 3px 3px #8500b8;  
+	-moz-box-shadow: 3px 3px 3px 3px #8500B8; 
+	-webkit-box-shadow: 3px 3px 3px 3px #8500B8; 
+	 box-shadow: 3px 3px 3px 3px #8500B8;  
 	 border-radius: 30px; 
 	 -moz-border-radius: 30px; 
 	 -webkit-border-radius: 30px;
@@ -43,7 +38,7 @@ a:link,avisited{
 	text-decoration:none;
 	}
 a:hover,a:active{
-	background-color:rgba(15, 37, 255, 0.3);	
+	background-color:#0f25ff;	
 	}
 
 h1{
@@ -71,6 +66,7 @@ h3{
 	background: linear-gradient(to bottom, #00ff00,#ffffff,#00ff00);
 	text-shadow:0.075em 0.075em #9B9D9E;
 	text-align: center;
+	border:0px solid #00ff00;
 	 border-radius: 30px; 
 	 -moz-border-radius: 30px; 
 	 -webkit-border-radius: 30px;
@@ -103,9 +99,9 @@ img.align-center{
 	color:#04090D;
 	margin:0px auto;
 	border: 10px solid #F0AB2F;
-	-moz-box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3); 
-	-webkit-box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3); 
-	 box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3); 
+	moz-box-shadow: 5px 5px 5px #777777;
+	 -webkit-box-shadow: 5px 5px 5px #777777; 
+	 box-shadow: 5px 5px 5px #777777;
 	 border-radius: 10px; 
 	 -moz-border-radius: 10px; 
 	 -webkit-border-radius: 10px;
@@ -120,9 +116,9 @@ img.align-center{
 	margin-top:100px;
 	padding-bottom:30px;
 	border: 10px solid #F0AB2F;
-	-moz-box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3); 
-	-webkit-box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3); 
-	 box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3); 
+	-moz-box-shadow: 5px 5px 5px #777777;
+	 -webkit-box-shadow: 5px 5px 5px #777777; 
+	 box-shadow: 5px 5px 5px #777777;
 	 border-radius: 10px; 
 	 -moz-border-radius: 10px; 
 	 -webkit-border-radius: 10px;	
@@ -134,9 +130,10 @@ img.align-center{
 	margin: 0px auto;
 	background:rgba(153,153,153,.75);
 	border: 10px solid #F0AB2F;
-	-moz-box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3);
-	-webkit-box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3);
-	 box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3);
+	-moz-box-shadow: 5px 5px 5px #777777;
+	 -webkit-box-shadow: 5px 5px 5px #777777; 
+	 box-shadow: 5px 5px 5px #777777;
+
 	 border-radius: 10px; 
 	 -moz-border-radius: 10px; 
 	 -webkit-border-radius: 10px;
@@ -144,7 +141,7 @@ img.align-center{
 	}
 img.medium1{
 	width:200px;
-	height:300px;
+	height300px;
 	}
 figure.align-right{
 	float:right;
@@ -179,9 +176,9 @@ tr:hover {
 	margin: 0px auto;
 	background:rgba(153,153,153,.75);
 	border: 10px solid #F0AB2F;
-	-moz-box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3);
-	-webkit-box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3); 
-	 box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3);  
+	-moz-box-shadow: 5px 5px 5px #777777;
+	 -webkit-box-shadow: 5px 5px 5px #777777; 
+	 box-shadow: 5px 5px 5px #777777;
 	 border-radius: 10px; 
 	 -moz-border-radius: 10px; 
 	 -webkit-border-radius: 10px;
@@ -229,15 +226,15 @@ border: 1px solid #999;
 	color:#ffffff;
 	margin: 0px auto;
 	background:#000000;
-	border: 10px solid #F0AB2F;
-	-moz-box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3);
-	-webkit-box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3); 
-	 box-shadow: 5px 5px 5px 5px rgba(240,171,47,.3);  
+	border: 10px solid #F0AB2F;  
 	 border-radius: 10px; 
 	 -moz-border-radius: 10px; 
 	 -webkit-border-radius: 10px;
 	 margin-top:50px;
 	 text-align:left;
+	 -moz-box-shadow: 5px 5px 5px #777777;
+	 -webkit-box-shadow: 5px 5px 5px #777777; 
+	 box-shadow: 5px 5px 5px #777777;
 	
 	}
 .name{
